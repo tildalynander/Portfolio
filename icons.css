@@ -8,6 +8,7 @@
     display: inline-block;
     background-size: cover;
     margin: 10px;
+    transition: all 0.2s ease-out;
 
 
 }
@@ -37,10 +38,17 @@
     opacity: 0;
     animation: fadeinicon 4s forwards;
     animation-delay: 1s;
+    -webkit-animation: fadeinicon 4s forwards;
+    -webket-animation-delay: 1s;
 
 }
 
 @keyframes fadeinicon {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadeinicon {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
