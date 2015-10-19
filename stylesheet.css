@@ -1,4 +1,5 @@
 @import "icons.css";
+@import "skills-pie-chart.css";
 
 body, html {
   width:100%;
@@ -23,12 +24,32 @@ h1 {
 h2 {
   text-align: center;
   font-family: helvetica;
-  font-weight: 200;
-  letter-spacing: 15px;
+  font-weight: 100;
   display: inline-block;
   padding-top: 10%;
+  clear: both;
+  text-transform: uppercase;
 }
 
+h3 {
+  font-family: helvetica;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+
+}
+
+p {
+  font-family: helvetica;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#header-fika {
+  display: block;
+  padding-top: 2%;
+}
 
 /*Backgrounds*/
 
@@ -53,10 +74,16 @@ h2 {
 #bg1 {
   z-index: 1;
   position: relative;
-  background-color: white;
+  background-color: #efe2d3;
 }
 
 #bg2 {
+  z-index: 1;
+  position: relative;
+  background-color: #efe2d3;
+}
+
+#bg3 {
   z-index: 1;
   position: relative;
   background-color: #efe2d3;
@@ -67,6 +94,22 @@ h2 {
   width: 100%;
   background-size: cover;
   text-align: center;
+}
+
+.skillswrap {
+  display: inline-block;
+  margin: 5%;
+}
+
+.skillsrow {
+  display: block;
+  clear: both;
+}
+
+
+#croiassant-icon {
+  width: 30%;
+
 }
 
 #header {
@@ -83,4 +126,5 @@ h2 {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
 
