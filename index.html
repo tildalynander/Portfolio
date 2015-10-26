@@ -5,6 +5,24 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="stylesheet" type="text/css" href="mobile.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<!--SLICK CAROUSEL SLIDESHOW-->
+
+    <script type="text/javascript" src="jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="slick-1.5.7/slick/slick.css"/>
+
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.5.6/slick.min.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.slideshow').slick({ 
+        arrows: true,
+        dots: true
+      });
+    }); 
+  </script>
+
   </head>
 
 <!--THIS IS THE BODY--> 
@@ -133,16 +151,48 @@
 <!--This is BACKGROUND 2-->
 
     <div class="background" id="bg2">
-      <h2>My work</h2> 
+
+      <h4> &quot;Whenever I see something with potential, it snaps in my head. It is like a clear vision of how everything should look and be experienced to make a kickass brand. The following moment of enthusiasm and ideation I have is probably what&accute;s make me to a unique asset in the industry.&quot;
+      </h4>
+
     </div>
 
 <!--This is BACKGROUND--> 
 
-    <div class="background" id="bg3"> 
-      <img id="croiassant-icon" src="croiassant-vector-black.svg">
-      <h2 id="header-fika">Fika?</h2>
-      <p>Interested in what I do? Want to share ideas? Curious of who I am? <br/> I would never miss an oppertunity to fika. Send me a mail!</p>
+    <div class="background" id="bg3">
+      <h2>My work</h2> <br>
+
+       
+        <br/>
+        <div class="slideshow">
+          <div><img class="my-work-pictures" src="my-work/portrait.jpg"></div>
+          <div><img class="my-work-pictures" src="my-work/portrait.jpg"></div>
+          <div><img class="my-work-pictures" src="my-work/portrait.jpg"></div>
+        </div>
+      
+
+<!-- INACTIVE PICTURES
+      <img class="my-work-pictures" src="my-work-example-two.jpg">
+      <img class="my-work-pictures" src="my-work-example-one.jpg">
+      <br/>
+      <img class="my-work-pictures" src="my-work/sushi.jpg">
+-->
+
+
     </div>
+
+<!--This is BACKGROUND--> 
+
+    <div class="background" id="bg4"> 
+
+      <div id="fika-content">
+        <img id="croiassant-icon" src="croiassant-vector-black.svg">
+        <h2 id="header-fika">Fika?</h2>
+        <p>Interested in what I do? Want to share ideas? Curious of who I am? <br/> I would never miss an oppertunity to fika. Send me a mail!</p>
+      </div>
+    </div>
+
+    
 
   </body>
 </html>

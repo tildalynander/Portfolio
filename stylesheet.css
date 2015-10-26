@@ -36,14 +36,30 @@ h3 {
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
-
 }
+
+h4 {
+  font-family: helvetica;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 40px;
+  width: 70%;
+  display: inline-block;
+  color: #8c7b68;
+  padding-top: 20%;
+}
+
 
 p {
   font-family: helvetica;
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
+}
+
+#contemporary-dots {
+  font-size: 100px;
+  color: #8c7b68;
 }
 
 #header-fika {
@@ -81,9 +97,18 @@ p {
   z-index: 1;
   position: relative;
   background-color: #efe2d3;
+  background-size: cover;
 }
 
 #bg3 {
+  z-index: 1;
+  position: relative;
+  background-color: #efe2d3;
+  background-size: cover;
+  text-align: center;
+}
+
+#bg4 {
   z-index: 1;
   position: relative;
   background-color: #efe2d3;
@@ -106,10 +131,19 @@ p {
   clear: both;
 }
 
+.my-work-pictures {
+  width: 70%;
+  margin-top: 2%
+
+}
+
 
 #croiassant-icon {
   width: 30%;
+}
 
+#fika-content {
+  padding-top: 15%;
 }
 
 #header {
@@ -127,4 +161,8 @@ p {
     to   { opacity: 1; }
 }
 
+.slideshow {
+  width: 80%;
+  display: inline-block;
+}
 
